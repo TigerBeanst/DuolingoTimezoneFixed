@@ -1,4 +1,16 @@
-<resources>
-    <string name="app_name">Duolingo时区修复</string>
-    <string name="xposed_desc">将多邻国的时区锁定为中国香港，使「非中国大陆账户」能够在不需要修改系统全局的情况下正常使用排行榜等功能</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>rescue_clear
+    <string name="app_name">Duolingo Regret</string>
+    <string name="xposed_desc">Change Duolingo\'s time zone to any arbitrary time zone, makes it easier to go back and finish forgotten streaks. For specific regions, modifying the default time zone can prevent accounts from being classified as accounts from certain areas.</string>
+
+    <string name="ok">OK</string>
+    <string name="setting_success">Done, please manually restart Duolingo</string>
+    <string name="default_tz">Default Timezone</string>
+    <string name="rescue_tz">Rescue Timezone</string>
+    <string name="rescue_streak">RESCUE MY STREAKS!</string>
+    <string name="rescue_clear">RESTORE</string>
+    <string name="rescue_error">Your device does not seem to support the timezone ID you entered. Example: America/Los_Angeles</string>
+    <string name="rescue_status">Current Duolingo timezone: </string>
+    <string name="rescue_dialog">Duolingo is in streak rescue mode now! Timezone: %s</string>
+    <string name="rescue_desc">1. When the "Default Timezone" is cleared, it will revert to the system time zone.\n2. When rescue mode is activated, only the Rescue Timezone will be used.\n3. <b>Please do not rely on this module to achieve winning streaks. Language learning requires long-term regular persistence.</b></string>
 </resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">多邻国后悔药</string>
+    <string name="xposed_desc">将多邻国的时区修改为任意时区，便于回到过去做完忘了做的连胜。对特定地区来说，可以通过修改默认时区防止账户被判定为某些地区账户。</string>
+
+    <string name="ok">确定</string>
+    <string name="setting_success">设置成功，请手动重启多邻国</string>
+    <string name="default_tz">默认时区</string>
+    <string name="rescue_tz">抢救时区</string>
+    <string name="rescue_streak">抢救我的连胜！</string>
+    <string name="rescue_clear">恢复</string>
+    <string name="rescue_error">您的设备似乎不支持您填写的时区ID。示例：Asia/Shanghai</string>
+    <string name="rescue_status">当前多邻国时区：</string>
+    <string name="rescue_dialog">多邻国当前正处于连胜抢救模式！时区：%s</string>
+    <string name="rescue_desc">1. 置空「默认时区」时，会恢复到系统时区。\n2. 当抢救模式启动时，仅会使用抢救时区。\n3. <b>请不要依赖此模块来完成连胜，语言学习需要长期规律地坚持。</b></string>
+
+</resources>

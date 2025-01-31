@@ -19,8 +19,3 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
--keep public class com.jakting.duolingo.MainHook
-
--keep class com.jakting.duolingo.MainHook {
-     <init>();
-}

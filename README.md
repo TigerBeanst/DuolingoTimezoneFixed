@@ -1,7 +1,9 @@
-# Duolingo时区修复
-将多邻国的时区锁定为中国香港，使「非中国大陆账户」能够在不需要修改系统全局的情况下正常使用排行榜等功能
+# 多邻国后悔药 Duolingo Regret
+将多邻国的时区修改为任意时区，便于回到过去做完忘了做的连胜。对特定地区来说，可以通过修改默认时区防止账户被判定为某些地区账户。
 
-简单得不能再简单的模块，这个模块仅适用于在 `中国标准时间`时区下丢失排行榜，但设备切换到其他时区能正常使用排行榜的账号，即 **没有被判定为中国大陆用户使用的账号**
+Change Duolingo's time zone to any arbitrary time zone, makes it easier to go back and finish forgotten streaks. For specific regions, modifying the time zone can prevent accounts from being classified as accounts from certain areas.
 
-## 注意
-当你的多邻国账户已经绑定了「+86」手机号时，无论如何都无法解锁排行榜了，请重新注册一个国际版的账号。
+# 截图 Screenshots
+![](repoAssets/Screenshot_module_setting.jpg)
+
+![](repoAssets/Screenshot_duolingo_in_save_mode.jpg)
